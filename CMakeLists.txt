@@ -3,4 +3,6 @@ project(UnityOpener C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(UnityOpener main.c)
+add_executable(UnityOpener main.c
+        unity.h
+        unity.c)
